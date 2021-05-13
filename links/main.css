@@ -231,6 +231,7 @@ a[href^="mailto:"] {
 }
 .resources a {
   border-bottom: none;
+  padding-right: 22px;
 }
 a[href*='://']
 {
@@ -245,4 +246,8 @@ a[href*='://']
 }
 .resources a[href$=".doc"] {
   background: url(images/word.png) no-repeat right top;
+}
+.resources a:hover {
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.8);
 }
